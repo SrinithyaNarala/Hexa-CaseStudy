@@ -1,0 +1,42 @@
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  /*background-color: #0c90f4;*/
+}
+
+.user-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+.user-card h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.user-card p {
+  font-size: 1rem;
+  color: #555;
+  margin: 8px 0;
+}
+
+.user-card p strong {
+  color: #000;
+}
+
+.error {
+  color: red;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 20px;
+}

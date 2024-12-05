@@ -1,0 +1,58 @@
+/* Container for the reservation list */
+.reservation-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+/* Individual reservation card */
+.reservation-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.reservation-card:hover {
+  transform: scale(1.05);
+}
+
+/* Header style */
+.reservation-header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.reservation-header h3 {
+  margin: 0;
+}
+
+/* Body style */
+.reservation-body p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* Styling for error and no reservation messages */
+.error-message, .no-reservations {
+  text-align: center;
+  color: red;
+}
+/* Center the heading */
+.reservation-list h3 {
+  text-align: center; /* Centers the text horizontally */
+  margin-top: 20px; /* Adds space above the heading */
+  margin-bottom: 20px; /* Optional, adds space below the heading */
+  font-size: 24px; /* Optional, adjust the font size as needed */
+  font-weight: bold; /* Optional, makes the text bold */
+  color: #333; /* Optional, change the text color */
+}
+
+
